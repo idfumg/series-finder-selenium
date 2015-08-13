@@ -46,7 +46,7 @@ def find_series_fanserials(browser, data):
 
 def main():
     display = Display(visible=0, size=(800, 600))
-    display.start(
+    display.start()
 
     with closing(Firefox()) as browser:
         print('\n[' + URL +']')
